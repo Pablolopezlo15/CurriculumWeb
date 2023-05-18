@@ -1,96 +1,449 @@
-<!DOCTYPE html>
-<html lang="es">
+﻿<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi currículum</title>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    /* Estilos generales */
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      margin: 0;
-      padding: 0;
-    }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Pablo - Desarrollador Web">
+  <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
+	<meta name="author" content="http://trendytheme.net/">
 
-    /* Estilos para dispositivos móviles */
-    @media (max-width: 767px) {
-      /* Agregar estilos para móvil aquí */
-    }
+	<title>Pablo - Desarrollador Web</title>
 
-    /* Estilos para ordenadores */
-    @media (min-width: 768px) {
-      /* Agregar estilos para ordenador aquí */
-    }
-  </style>
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<!--
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+-->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
 </head>
+
 <body>
-  <header>
-    <h1>Mi nombre completo</h1>
-    <p>Mi profesión o título</p>
-    <ul>
-      <li>Mi correo electrónico</li>
-      <li>Mi número de teléfono</li>
-      <li>Mi sitio web o perfil en línea</li>
-    </ul>
-  </header>
-  
-  <main>
-    <section>
-      <h2>Experiencia laboral</h2>
-      <ul>
-        <li>
-          <h3>Nombre de la empresa</h3>
-          <p>Fecha de inicio - Fecha de fin</p>
-          <p>Cargo o puesto</p>
-          <ul>
-            <li>Logro o responsabilidad</li>
-            <li>Logro o responsabilidad</li>
-            <li>Logro o responsabilidad</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Nombre de la empresa</h3>
-          <p>Fecha de inicio - Fecha de fin</p>
-          <p>Cargo o puesto</p>
-          <ul>
-            <li>Logro o responsabilidad</li>
-            <li>Logro o responsabilidad</li>
-            <li>Logro o responsabilidad</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    
-    <section>
-      <h2>Educación</h2>
-      <ul>
-        <li>
-          <h3>Nombre de la institución educativa</h3>
-          <p>Título obtenido, fecha de inicio - fecha de fin</p>
-        </li>
-        <li>
-          <h3>Nombre de la institución educativa</h3>
-          <p>Título obtenido, fecha de inicio - fecha de fin</p>
-        </li>
-      </ul>
-    </section>
-    
-    <section>
-      <h2>Habilidades y competencias</h2>
-      <ul>
-        <li>Habilidad o competencia</li>
-        <li>Habilidad o competencia</li>
-        <li>Habilidad o competencia</li>
-        <li>Habilidad o competencia</li>
-      </ul>
-    </section>
-  </main>
-  
-  <footer>
-    <p>Derechos de autor © 2023 | Mi nombre completo</p>
-  </footer>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<div class="intro">
+			<div class="intro-sub">Pablo López Lozano</div>
+			<h1>Desarrollador y Diseñador <span>Web</span></h1>
+			<p>Soy un diseñador y desarrollador de interfaz de usuario creativo independiente totalmente profesional.
+        <br>Involucrarse con los últimos diseños web y tecnologías es una gran
+        <br>manera de seguir siendo creativo.</p>
+
+      <div class="social-icons">
+        <ul class="list-inline">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#about">Sobre mi</a></li>
+						<li><a href="#resume">Resumen</a></li>
+						<li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Sobre Mi</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/myphoto.jpg" alt="">
+              </div>
+              <ul>
+                <li><strong>Nombre:</strong> Pablo López Lozano</li>
+                <li><strong>Fecha de Nacimiento:</strong> 15 de Noviembre 2003</li>
+                <li><strong>Dirección:</strong> Chauchina, Granada </li>
+                <li><strong>Nacionalidad:</strong> Español</li>
+                <li><strong>Número:</strong> +34 722276894</li>
+                <li><strong>Email:</strong> plopezlozano12@gmail.com</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>Objetivos</h3>
+              <p>Una oportunidad para trabajar y mejorar, además de participar en una organización que cree en obtener una ventaja competitiva y retribuir a la comunidad. Actualmente estoy ampliando mi sólida experiencia en diseño y desarrollo WEB. Me enfoco en usar mis habilidades interpersonales para construir una buena experiencia de usuario y crear un fuerte interés en mis clientes. Espero desarrollar habilidades en el diseño de movimiento y mi conocimiento de la Web, y convertirme en un activo honesto para el negocio. Soy creativo, divertido y naturalmente apasionado.</p>
+            </div>
+
+            <div class="short-info wow fadeInUp">
+              <h3>¿Qué hago?</h3>
+              <p>Soy diseñador de interfaz web. Me encanta el estilo limpio y elegante, y tengo mucha experiencia en la producción de CSS3 y HTML5 para sitios web modernos. Me encanta crear increíbles según las necesidades de mis clientes. Pienso en la experiencia del usuario cuando trato de crear algo para mis clientes. Haciendo un diseño impresionante.</p>
+
+              <ul class="list-check">
+                <li>Diseñador de experiencia de usuario</li>
+                <li>Deseñador de Interfaces</li>
+                <li>Diseñador de productos</li>
+                <li>Diseño de marca</li>
+              </ul>
+            </div>
+
+            <div class="my-signature">
+              <img src="assets/images/sign.png" alt="">
+            </div>
+
+            <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="./assets/cv/Curriculum Vitae Español.pdf" target="_blank"><i class="fa fa-download"></i>Descarga mi Curriculum Vitae Español</a>
+              <a class="btn btn-primary btn-lg" href="./assets/cv/Curriculum Vitae Inglés.pdf" target="_blank"><i class="fa fa-download"></i>Descarga mi Curriculum Vitae Inglés</a>
+            </div>
+          </div>
+
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resumen</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Educación</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2022-2024</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Grado Superior en Desarrollo de Aplicaciones Web</h3>
+                                            <span>IES Francisco Ayala (Avenida Francisco Ayala) Granada, España</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">2020-2022</span>
+                                </div><!-- /posted-date -->
+                                <div class="timeline-panel wow fadeInUp">
+                                  <div class="timeline-content">
+                                      <div class="timeline-heading">
+                                          <h3>Bachillerato</h3>
+                                          <span>IES Arjé Chauchina, Granada</span>
+                                      </div><!-- /timeline-heading -->
+
+                                      <div class="timeline-body">
+                                          
+                                      </div><!-- /timeline-body -->
+                                  </div> <!-- /timeline-content -->
+                              </div><!-- /timeline-panel -->
+         
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Mis Habilidades</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Diseño Gráfico</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>HTML y CSS</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Diseño Comercial</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Diseño de Productos</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Diseño Web</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Java</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>Más Habilidades</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="91" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Liderazgo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="50" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Creatividad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Gestión</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="60" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Organización</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="80" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Marketing Digital</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Motivation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+   
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Contacto</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-form">
+              <strong>Envíame un mensaje</strong>
+              <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
+
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" name="name" class="form-control" id="name" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Asunto</label>
+                  <input type="text" name="subject" class="form-control" id="subject">
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div><!-- /.contact-form -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="row center-xs">
+              <div class="col-sm-6">
+                <i class="fa fa-map-marker"></i>
+                <address>
+                  <strong>Dirección</strong>
+                  Chauchina, Granada<br>
+                  España<br>
+                </address>
+              </div>
+
+              <div class="col-sm-6">
+                <i class="fa fa-mobile"></i>
+                <div class="contact-number">
+                  <strong>Número de teléfono</strong>
+                  +34 722276894<br>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="location-map">
+                  <div id="mapCanvas" class="map-canvas"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Contact Section -->
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+             Todos los derechos reservados &#169; <i class="fa fa-love"></i><a href="#">Pablo López Lozano</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
